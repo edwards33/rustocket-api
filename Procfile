@@ -1,1 +1,1 @@
-web: ./target/release/rust-api
+web: ROCKET_ADDRESS=0.0.0.0 ROCKET_PORT=$PORT ./target/release/rust-api
